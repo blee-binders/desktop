@@ -57,11 +57,11 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-xdg
 keyboard
+browsers
+xdg
 _nodeBase_
 multimedia
-browsers
 "
 # }}} DBLOCK-nodesList
 ####+END:

@@ -41,11 +41,11 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
-organizing
 photosDownload
-photosViewing
 photoEditing
 colorCalibration
+organizing
+photosViewing
 "
 # }}} DBLOCK-leavesList
 ####+END:
@@ -62,8 +62,8 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-_nodeBase_
 exportAndPublish
+_nodeBase_
 "
 # }}} DBLOCK-nodesList
 ####+END:

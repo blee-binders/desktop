@@ -59,9 +59,9 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-video-capture
-_nodeBase_
 photography
+_nodeBase_
+video-capture
 "
 # }}} DBLOCK-nodesList
 ####+END:
