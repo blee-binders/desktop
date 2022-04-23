@@ -41,11 +41,16 @@
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/_nodeBase_")][ =blee-binders= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/_nodeBase_")][ =bxRepos= ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview --- Gnome And MediaCenter" :anchor "Panel" :extraInfo "PlaceHolder"
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview --- Gnome And MediaCenter:* |]] <<Panel>> PlaceHolder  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
-** Overview Comes Here.
+** +
+** To be renamed into two panels. 1) Media Center --- 2) Gnome
+** Then: Gnome/{Servers/Laptops/Workstations} + Gnome/xdg
+** Then MediaCenter/multimedia
+** In Gnome/Workstations -- Settings, Privacy, Screen Lock, Automatic Screen Lock = off --- 10 mins
+** In Gnome/Workstations -- Settings, Background , Basic Grey
+** To MediaCenter add binsPreps for vlc and more.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Related Panels" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
