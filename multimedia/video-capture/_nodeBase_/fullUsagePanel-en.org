@@ -37,6 +37,11 @@
 ** An external source can be a VCR Player, A DVD-Player, A CD-Player, etc.
 ** VCR Player.
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "See Also" :anchor "" :extraInfo "Related and Relevant Panels"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _See Also_: |]]  Related and Relevant Panels  [[elisp:(org-shifttab)][<)]] E|
+####+END
+
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "VCR Player And AVR" :anchor "" :extraInfo "Hardware Setup"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *VCR Player And AVR:* |]]  Hardware Setup  [[elisp:(org-shifttab)][<)]] E|
@@ -85,6 +90,17 @@
 ** Setup:
 **   -- VCR Audio Output is also going to USB 2 Adapter
 **   -- USB2 Output of adapter goes to PC
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Camera Capture Plus Audio Input" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Camera Capture Plus Audio Input:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** Play the tape in VCR
+** With USB-2 Video Capture Card Device take its input into OBS
+** Setup the camera to capture the video
+** Record
+** ---------- With some old videos which would not sync, this can produce the best result -------------
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "OBS Setup" :anchor "" :extraInfo "Software Setup"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
