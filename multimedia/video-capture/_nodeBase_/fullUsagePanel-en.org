@@ -41,7 +41,14 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _See Also_: |]]  Related and Relevant Panels  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda nil :sep t :outLevel 2 :model "auto" :foldDesc "OBS Panel" :destDesc "auto" :dest "/bisos/git/auth/bxRepos/blee-binders/bisos-apps/lcnt/productionComponents/OBS/_nodeBase_"
+* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/bisos-apps/lcnt/productionComponents/OBS/_nodeBase_")][@ ~OBS~ @]]   ::  <<OBS Panel>> [[elisp:(org-cycle)][| *=* |]] [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda nil :sep t :outLevel 2 :model "auto" :foldDesc "Screencasting Panel" :destDesc "auto" :dest "/bisos/git/auth/bxRepos/blee-binders/bisos-apps/lcnt/lcntScreencasting/_nodeBase_"
+* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/bisos-apps/lcnt/lcntScreencasting/_nodeBase_")][@ ~lcntScreencasting~ @]]   ::  <<Screencasting Panel>> [[elisp:(org-cycle)][| *=* |]] [[elisp:(org-shifttab)][<)]] E|
+####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "VCR Player And AVR" :anchor "" :extraInfo "Hardware Setup"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *VCR Player And AVR:* |]]  Hardware Setup  [[elisp:(org-shifttab)][<)]] E|
@@ -101,19 +108,6 @@
 ** Setup the camera to capture the video
 ** Record
 ** ---------- With some old videos which would not sync, this can produce the best result -------------
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "OBS Setup" :anchor "" :extraInfo "Software Setup"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *OBS Setup:* |]]  Software Setup  [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** --- Hardware ---
-**   -- Audio:: USB2 Output of adapter goes to PC
-**   -- Video:: Flint 4KP USB-3 output goes to PC
-** ----
-** OBS Setup:
-**   -- Run  [[elisp:(lsip-local-run-command "obs")][obs]]
-**   --
 ** B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
