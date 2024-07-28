@@ -24,9 +24,9 @@
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
-* [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
-
-*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/audio-in")][audio-in]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/audio-out")][audio-out]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/drawing/_nodeBase_")][ =drawing= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/photography/_nodeBase_")][ =photography= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/video-capture/_nodeBase_")][ =video-capture= ]] *|*
+* +
+*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/audio-in")][audio-in]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/audio-out")][audio-out]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/drawing/_nodeBase_")][ =drawing= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/kodi/_nodeBase_")][ =kodi= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/photography/_nodeBase_")][ =photography= ]] *|*
+*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/video-capture/_nodeBase_")][ =video-capture= ]] *|*
 *                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/browsers/_nodeBase_")][ =browsers= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/gnome/_nodeBase_")][ =gnome= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/_nodeBase_")][ =keyboard= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/_nodeBase_")][ =multimedia= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/xdg/_nodeBase_")][ =xdg= ]] *|*
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
@@ -106,6 +106,7 @@ All of the above are to be branches, not leaves
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:footerEmacsParams)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| *= Emacs Local Params: =* | ]]
 # Local Variables:
+# eval: (setq-local toc-org-max-depth 4)
 # eval: (setq-local ~selectedSubject "noSubject")
 # eval: (setq-local ~primaryMajorMode 'org-mode)
 # eval: (setq-local ~blee:panelUpdater nil)
