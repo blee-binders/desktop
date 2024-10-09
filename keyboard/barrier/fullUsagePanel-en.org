@@ -1,25 +1,17 @@
 * B|
 ####+BEGIN: bxPanel:common/title-plus
-#+title: panels/desktop
-#+roam_tags: branch
-#+roam_key: bisos/panels/desktop
-[[roam:bisos/panels]]
+#+title: keyboard/barrier
+#+roam_tags: leaf
+#+roam_key: desktop/keyboard/barrier
+[[roam:desktop/keyboard]]
 ####+END
-# kind of begin
-#+title: BISOS Desktop
-#+roam_alias: "bisos-apps" "bisos/panels/bisos-apps"
-#+roam_key: bleePanel/bisos/bisos-apps
-[[file:../../_nodeBase_/fullUsagePanel-en.org][BISOS Blee Top Panel]]
-
-## kind of end
-
 ####+BEGIN: blee:bxPanel:topPanelControls
 *  [[elisp:(org-cycle)][|#Control|]] :: [[elisp:(blee:bnsm:menu-back)][Back]] [[elisp:(toggle-read-only)][read/wr]] | [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Overview]]  [[elisp:(progn (org-shifttab) (org-content))][Content]] | [[elisp:(delete-other-windows)][(1)]] | [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] [[elisp:(save-buffer)][Save]] [[elisp:(kill-buffer)][Quit]] [[elisp:(bury-buffer)][Bury]]  [[elisp:(magit)][Magit]]  [[elisp:(org-cycle)][| ]]
 **  [[elisp:(bap:magit:bisos:current-bpo-repos/visit)][BPO-Repos-Magit]] ||
 **  [[elisp:(blee:buf:re-major-mode)][Re-Major-Mode]] ||  [[elisp:(org-dblock-update-buffer-bx)][Update Buf Dblocks]] || [[elisp:(org-dblock-bx-blank-buffer)][Blank Buf Dblocks]] || [[elisp:(bx:panel:variablesShow)][bx:panel:variablesShow]]
 **  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]]
-**  This File :: *= /bisos/panels/desktop/_nodeBase_/fullUsagePanel-en.org =*
-* /file-truename:/  /bisos/git/auth/bxRepos/blee-binders/desktop/_nodeBase_/fullUsagePanel-en.org
+**  This File :: *= /bisos/panels/desktop/keyboard/barrier/fullUsagePanel-en.org =*
+* /file-truename:/  /bisos/git/auth/bxRepos/blee-binders/desktop/keyboard/barrier/fullUsagePanel-en.org
 *  [[elisp:(org-cycle)][|#Select|]]  :: (Results: [[elisp:(blee:bnsm:results-here)][Here]] | [[elisp:(blee:bnsm:results-split-below)][Below]] | [[elisp:(blee:bnsm:results-split-right)][Right]] | [[elisp:(blee:bnsm:results-other)][Other]] | [[elisp:(blee:bnsm:results-popup)][Popup]]) (Select:  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh -i currentsGetThenShow")][Show Currents]]  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh")][lpCurrentsAdmin.sh]] ) [[elisp:(org-cycle)][| ]]
 **  #See:  (Window: [[elisp:(blee:bnsm:results-window-show)][?]] | [[elisp:(blee:bnsm:results-window-set 0)][0]] | [[elisp:(blee:bnsm:results-window-set 1)][1]] | [[elisp:(blee:bnsm:results-window-set 2)][2]] | [[elisp:(blee:bnsm:results-window-set 3)][3]] ) || [[elisp:(lsip-local-run-command-here "echo pushd dest")][echo pushd dir]] || [[elisp:(lsip-local-run-command-here "lsf")][lsf]] || [[elisp:(lsip-local-run-command-here "pwd")][pwd]] |
 **  [[elisp:(org-cycle)][|#Destinations|]] :: [[Evolution]] | [[Maintainers]]  [[elisp:(org-cycle)][| ]]
@@ -27,43 +19,55 @@
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
 * [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Node:: bisos/panels -- desktop~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
+*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Leaf:: desktop/keyboard -- barrier~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * +
-*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/browsers/_nodeBase_")][ =browsers= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/gnome/_nodeBase_")][ =gnome= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/_nodeBase_")][ =keyboard= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/_nodeBase_")][ =multimedia= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/xdg/_nodeBase_")][ =xdg= ]] *|*
-*                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/base/_nodeBase_")][ =base= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-apps/_nodeBase_")][ =bisos-apps= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-core/_nodeBase_")][ =bisos-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-periphery/_nodeBase_")][ =bisos-periphery= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-svcs/_nodeBase_")][ =bisos-svcs= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-core/_nodeBase_")][ =bxde-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/connectivity/_nodeBase_")][ =connectivity= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/development/_nodeBase_")][ =development= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/espoused/_nodeBase_")][ =espoused= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/non-libre-halaal/_nodeBase_")][ =non-libre-halaal= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/overview")][overview]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/panelsRoot")][panelsRoot]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/system-container/_nodeBase_")][ =system-container= ]] *|*
-*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/barrier")][barrier]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/input-leap")][input-leap]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/synergy")][synergy]] *|*
+*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/desktop/keyboard/barrier")][barrier]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/desktop/keyboard/_nodeBase_")][ =keyboard= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview --- Gnome And MediaCenter" :anchor "Panel" :extraInfo "PlaceHolder"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview --- Gnome And MediaCenter:* |]] <<Panel>> PlaceHolder  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel" :extraInfo "clients and servers usage"
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview:* |]] <<Panel>> clients and servers usage  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-** To be renamed into two panels. 1) Media Center --- 2) Gnome
-** Then: Gnome/{Servers/Laptops/Workstations} + Gnome/xdg
-** Then MediaCenter/multimedia
-** In Gnome/Workstations -- Settings, Privacy, Screen Lock, Automatic Screen Lock = off --- 10 mins
-** In Gnome/Workstations -- Settings, Background , Basic Grey
-** To MediaCenter add binsPreps for vlc and more.
-** NOTYET, Capture: killall -SIGQUIT gnome-shell
+** Fork of synergy 1. Distributed with Debian 12.
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Related Panels" :anchor "" :extraInfo ""
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "ICMs And Related Introductions" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Related Panels_: |]]    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _ICMs And Related Introductions_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep t :outLevel 2 :agenda nil :foldDesc "Blee Core" :destDesc "Blee Core" :dest "/bisos/panels/blee-core/_nodeBase_/"
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 2 :sep nil :folding? t :label "ShIcm" :icmName "lcaSynergySrcBinsPrep.sh" :comment "Custom Src BinsPrep" :afterComment ""
+** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "lcaSynergySrcBinsPrep.sh -i examples")][lcaSynergySrcBinsPrep.sh]]  [[elisp:(lsip-local-run-command "lcaSynergySrcBinsPrep.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "lcaSynergySrcBinsPrep.sh -i describe")][describe]] *|*  =Custom Src BinsPrep= *|*   [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 2 :sep nil :folding? t :label "ShIcm" :icmName "siteSynergyManage.sh" :comment "Site Specific" :afterComment ""
+** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "siteSynergyManage.sh -i examples")][siteSynergyManage.sh]]  [[elisp:(lsip-local-run-command "siteSynergyManage.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "siteSynergyManage.sh -i describe")][describe]] *|*  =Site Specific= *|*   [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? t :label "BinsPrep" :icmName "lcaSynergySrcBinsPrep.sh -i fullUpdate" :comment "Source BinsPrep" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_/")][@ ~Blee Core~ @]]  [[elisp:(org-cycle)][| *=* |]] ::  <<Blee Core>> [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /BinsPrep/ |]] :: [[elisp:(lsip-local-run-command "lcaSynergySrcBinsPrep.sh -i fullUpdate")][lcaSynergySrcBinsPrep.sh -i fullUpdate]] *|*  =Source BinsPrep= *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
+** Builds from sources and produces results in /usr/local/bin/synergy
+####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? t :label "Gui Launch" :icmName "synergy &" :comment "For both client and server." :afterComment ""
+* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /Gui Launch/ |]] :: [[elisp:(lsip-local-run-command "synergy &")][synergy &]] *|*  =For both client and server.= *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: bxPanel:realms:user|extend
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━* |]]
+** Missing realmBaseDir /bxo/usg/bystar/bpos/realms/usageEnv
+ [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep t :outLevel 2 :agenda nil :foldDesc "BISOS Apps --- LCNT, PloneProc" :destDesc "BISOS Apps" :dest "/bisos/panels/bisos-apps/_nodeBase_/"
-* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-apps/_nodeBase_/")][@ ~BISOS Apps~ @]]  [[elisp:(org-cycle)][| *=* |]] ::  <<BISOS Apps --- LCNT, PloneProc>> [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: bxPanel:realms:site|extend
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| /━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━/ |]]
+** Missing realmBaseDir /bxo/usg/bystar/bpos/realms/site
+ [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: bxPanel:realms:platform|extend
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| =━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━= |]]
+** Missing realmBaseDir /bxo/usg/bystar/bpos/realms/platform
+ [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
@@ -96,13 +100,14 @@
 #+STARTUP: inlineimages
 #+SEQ_TODO: TODO WAITING DELEGATED | DONE DEFERRED CANCELLED
 #+TAGS: @desk(d) @home(h) @work(w) @withInternet(i) @road(r) call(c) errand(e)
-#+CATEGORY: N:desktop
+#+CATEGORY: L:barrier
 
 ####+END
 ####+BEGIN: blee:bxPanel:footerEmacsParams :primMode "org-mode"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:footerEmacsParams)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| *= Emacs Local Params: =* | ]]
 # Local Variables:
+# eval: (setq-local toc-org-max-depth 4)
 # eval: (setq-local ~selectedSubject "noSubject")
 # eval: (setq-local ~primaryMajorMode 'org-mode)
 # eval: (setq-local ~blee:panelUpdater nil)

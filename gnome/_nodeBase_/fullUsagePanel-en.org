@@ -24,20 +24,40 @@
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
-* [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
-
+* +
 *   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/gnome/dash-to-panel/_nodeBase_")][ =dash-to-panel= ]] *|*
 *                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/browsers/_nodeBase_")][ =browsers= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/gnome/_nodeBase_")][ =gnome= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/keyboard/_nodeBase_")][ =keyboard= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/multimedia/_nodeBase_")][ =multimedia= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/xdg/_nodeBase_")][ =xdg= ]] *|*
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview -- Unprocessed TODOs" :anchor "Panel"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** Scope of this panel is all of Gnome.
+** TODO Add gnome-extentions
+** TODO Add gsconnect -- KDE Connect -- Chrome Connect
+** TODO https://askubuntu.com/questions/1193496/add-app-to-favorites-from-command-line
+** TODO dconf read /org/gnome/shell/favorite-apps
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Development and Enhancement Plans" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Development and Enhancement Plans:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** Bring over here gnomeExtensionsBinsPrep.sh and gnomeExtenstionsManage.sh
+** DONE Do the rest of the development in Python based on GnomeAPI python_gi_dev
+** WAITING Create bisos/gnome --- bin/gnomeCustomize.cs -- From the begining make it be pipx install
+** https://github.com/freyja-dev/unity-tweak-tool/tree/master/debian
+** https://github.com/freyja-dev/unity-tweak-tool/blob/master/UnityTweakTool/section/spaghetti/gsettings.py
+** DONE Absorbe: sudo apt install libcairo2-dev libxt-dev libgirepository1.0-dev ; pip install pycairo PyGObject
+** Add a gnome-extentions panel
+** Add a GSConnect panel
+** https://askubuntu.com/questions/971067/how-can-i-script-the-settings-made-by-gnome-tweak-tool
+** https://forums.linuxmint.com/viewtopic.php?t=381740
+** Make Blee Gui. https://unix.stackexchange.com/questions/103213/how-can-i-add-an-application-to-the-gnome-application-menu
+** -B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END

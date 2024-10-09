@@ -42,11 +42,14 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Farsi And Arabic:* |]]  Go To Fonts -- Choose Arial Based  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Usful Hints" :anchor "" :extraInfo "Full Screen Toggle"
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Useful Hints" :anchor "" :extraInfo "Full Screen Toggle"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Usful Hints:* |]]  Full Screen Toggle  [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Useful Hints:* |]]  Full Screen Toggle  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** Python API -- kodi-cli
+** https://pypi.org/project/kodi-cli/
+** https://github.com/JavaWiz1/kodi-cli
 ** Full screen mode toggle "\"
 ** https://troypoint.com/daddylive-kodi-addon/
 ** https://opensource.com/article/21/5/launch-flatpaks-linux-terminal
@@ -57,6 +60,11 @@
 ** https://github.com/mikeroyal/PipeWire-Guide
 ** https://sonobus.net/linux.html
 ** pactl load-module module-combine-sink
+** https://gist.github.com/savegame/58ae5966c58a71fda5d3800b335eb2f5
+** https://beko.famkos.net/2022/04/18/virtual-sinks-and-mic-with-obs-and-pipewire-on-linux-pc/
+** https://superuser.com/questions/1713253/how-to-stream-audio-through-pipewire-from-one-linux-system-to-another
+** https://gavv.net/articles/roc-tutorial-0.2/#linux-desktop-pipewire
+** https://famme.sk/blog/compilation-of-gnu-emacs-29-30-in-debian-12.html
 ** -B|
 * +
 * -B|
