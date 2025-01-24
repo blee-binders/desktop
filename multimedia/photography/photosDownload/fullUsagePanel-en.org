@@ -61,11 +61,13 @@
 *** 
 *** Destinations policy needs to be figured out
 *** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Android Device Connection" :anchor "" :extraInfo "disable auto mount with dconf-editor"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Android Device Connection:/ |]]  disable auto mount with dconf-editor  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Unreliable: Android Device Connection" :anchor "" :extraInfo "disable auto mount with dconf-editor"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Unreliable: Android Device Connection:/ |]]  disable auto mount with dconf-editor  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-*** 
+*** +
+*** Use [[USB-Cable-MTP]] Instead
+*** --
 *** Android 6, LG, Ubuntu 2004 -- install [[elisp:(lsip-local-run-command "dconf-editor")][dconf-editor]] -- org.gnome.desktop.media-handling
 *** org.gnome.desktop.media-handling.automount=off
 *** org.gnome.desktop.media-handling.automount-open=off
@@ -78,9 +80,9 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Photos Import From Android Phone:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "With USB Cable -- Photos Local Import From Android" :anchor "" :extraInfo ""
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /With USB Cable -- Photos Local Import From Android:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "With USB Cable -- Photos Local Import From Android" :anchor "USB-Cable-MTP" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /With USB Cable -- Photos Local Import From Android:/ |]] <<USB-Cable-MTP>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ***    With USB Cable, Connect Host to Android
 ***    On Android -- Select USB Profile as MTP -- Swipe Down -- Look for USB
@@ -88,6 +90,21 @@
 ***    On Android -- after USB cable connection USB availble message appears in pull down
 ***    On BxP -- With File Manager Drag And Drop
 ***    Sort/Move them with rapid-photo-downloader
+*** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "KDEConnect --- Send Files" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /KDEConnect --- Send Files:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+***   + 
+***  Use SendFiles --- Works well for individual or small batches.
+*** Does not allow you to Select All
+*** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "KDEConnect --- Mount Android File System" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /KDEConnect --- Mount Android File System:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+***   + 
+*** Does not work reliably (2024) --  Use [[USB-Cable-MTP]] Instead
 *** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Photos Import From Camera or SD Card Procedures" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
